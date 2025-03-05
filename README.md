@@ -30,11 +30,11 @@ This project provides a REST API for diagnosing medical pathologies based on a h
 ### Steps to Run
 1. Clone the repository:
    ```sh
-   git clone <repo-url>
+   git clone https://github.com/harrati/softway-clinic
    ```
 2. Navigate to the project directory:
    ```sh
-   cd softwayclinic
+   cd softway-clinic
    ```
 3. Build and run the application:
    ```sh
@@ -76,6 +76,7 @@ mvn test
   ```json
   {
     "errorClass": "IllegalArgumentException",
+    "status": "BAD_REQUEST",
     "message": "Health index must be positive"
   }
   ```
