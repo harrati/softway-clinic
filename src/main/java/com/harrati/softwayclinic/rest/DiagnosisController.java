@@ -3,7 +3,6 @@ package com.harrati.softwayclinic.rest;
 import com.harrati.softwayclinic.dto.PathologyDTO;
 import com.harrati.softwayclinic.service.DiagnosisService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
